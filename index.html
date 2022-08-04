@@ -23,7 +23,7 @@
         <!-- navigation bar  -->
         <nav class="navbar navbar-expand-lg bg-light p-3">
             <div class="container-fluid">
-                <a class="navbar-brand fw-bold" href="#">Learner Hub</a>
+                <a class="navbar-brand fw-bold" href="index.html">Learner Hub</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -32,23 +32,23 @@
                 <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Courses</a>
+                            <a class="nav-link" href="#courses">Courses</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Success</a>
+                            <a class="nav-link" href="#success">Success</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Register</a>
+                            <a class="nav-link" href="#register">Register</a>
                         </li>
                     </ul>
                     <form>
-                        <button class="btn btn-outline-primary" type="submit">Register</button>
+                        <button class=" btn btn-outline-primary" type="submit">Register</button>
                     </form>
                 </div>
             </div>
@@ -111,9 +111,9 @@
 
     <!-- header section ends  -->
     <!-- main section starts  -->
-    <main>
+    <main class="container">
         <!-- courses section  -->
-        <section class="container my-5">
+        <section id="courses" class="container my-5 p-0">
             <div class="text-center">
                 <h2 class="fw-semibold">Discover Our Popular <br> Courses</h2>
                 <p>Here, you will find all our latest and popular cousres. You can choose your desired courses.</p>
@@ -205,9 +205,43 @@
                 <button type="button" class="btn btn-primary">See More Courses</button>
             </div>
         </section>
+        <!-- explore  -->
+        <section id="about" class="container my-5">
+            <div class="row align-items-center explore-bg">
+                <div class="col-12 col-md-6 p-0">
+                    <img class="img-fluid" src="./images/working.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 p-3">
+                    <h3 class="fw-bold mb-3">Explore The Learner Hub</h3>
+                    <p>Learner Hub is a webspace or portal for educational content and
+                        resources that offers a
+                        student
+                        everything they need in one place: lectures, resources, opportunities to meet and chat
+                        with
+                        other students, and more.</p>
+                    <div class="row mt-5">
+                        <div class="col-4">
+                            <h3 class="fw-bold">3.2k+</h3>
+                            <P>Online Courses</P>
+                        </div>
+                        <div class="col-4">
+                            <h3 class="fw-bold">600+</h3>
+                            <P>Expert Members</P>
+                        </div>
+                        <div class="col-4">
+                            <h3 class="fw-bold">1k+</h3>
+                            <P>Rating & Review</P>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="btn btn-primary">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- ready to join  -->
-        <section class="container my-5">
-            <div class="d-flex flex-column flex-lg-row justify-content-lg-between align-items-center py-5  bg-primary">
+        <section id="register" class="container my-5">
+            <div class="d-flex flex-column flex-lg-row justify-content-lg-between align-items-center py-5 bg-primary">
                 <div class="text-center text-lg-start text-white mx-5 ">
                     <h3>Ready to join?</h3>
                     <p>Let's explore and learn something new. It will be awesome!!</p>
@@ -257,7 +291,7 @@
             </div>
         </section>
         <!-- Successful student  -->
-        <section class="container my-5">
+        <section id="success" class="container my-5">
             <div class="text-center text-md-start">
                 <h2 class="fw-semibold">Meet Our Successfull
                     <br> Students
@@ -325,7 +359,7 @@
         <section class="container my-5">
             <div class="text-center mb-4">
                 <h2 class="fw-semibold">Some Students Feedback</h2>
-                <p>Read review about our coursees from those students who previously enrolled.</p>
+                <p>Read reviews about our coursees from those students who previously enrolled.</p>
             </div>
             <div class="container">
                 <div class="row g-4">
